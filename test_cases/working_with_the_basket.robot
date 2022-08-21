@@ -13,7 +13,6 @@ ${Password}     secret_sauce
     [Setup]    open browser and maximize   ${url}    ${browser}
     [Teardown]    close browser
     Login To Window     ${standard_user}   ${Password}
-
     Click Button    id:add-to-cart-sauce-labs-bike-light
     Click Button    id:add-to-cart-sauce-labs-backpack
     Click Button    id:add-to-cart-sauce-labs-bolt-t-shirt

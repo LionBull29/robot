@@ -21,14 +21,11 @@ ${Password}     secret_sauce
     Wait Until Element Is Visible    id:logout_sidebar_link
     Click Element    id:logout_sidebar_link
 
-
 Тест-кейсы для проверки попытки авторизации заблокированым пользователем
     [Setup]    open browser and maximize   ${url}    ${browser}
     [Teardown]    close browser
     input text   id:user-name    ${locked_out_user}
-    Sleep    2
     input text  name:password   ${Password}
-    Sleep    2
     click button    id:login-button
     Wait Until Element Is Visible    xpath://*[@id="login_button_container"]/div/form/div[3]/h3
     Click Button    class: error-button

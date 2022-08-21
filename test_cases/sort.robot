@@ -19,12 +19,20 @@ ${Password}     secret_sauce
     Click Element    xpath: //div[@class="header_secondary_container"]
     Click Element    xpath://option[2]
     Wait Until Element Is Visible   xpath: //a[@id="item_3_img_link"]/img[@class="inventory_item_img"]
+    Capture Page Screenshot
     Sleep    2
     Click Element    xpath: //div[@class="header_secondary_container"]
     Click Element    xpath://option[3]
     Wait Until Element Is Visible   xpath: //a[@id="item_2_img_link"]/img[@class="inventory_item_img"]
+    Capture Page Screenshot
     Sleep    2
     Click Element    xpath: //div[@class="header_secondary_container"]
     Click Element    xpath://option[4]
     Wait Until Element Is Visible   xpath: //a[@id="item_5_img_link"]/img[@class="inventory_item_img"]
+    Capture Page Screenshot
+    Sleep    2
+    Click Element    xpath: //div[@class="header_secondary_container"]
+    Click Element    xpath://option[1]
+    Wait Until Element Is Visible   xpath: //a[@id="item_4_img_link"]/img[@class="inventory_item_img"]
+    Capture Page Screenshot
     Sleep    2
