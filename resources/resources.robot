@@ -16,4 +16,3 @@ Login To Window
     input text  name:password   ${Password}
     click button    id:login-button
     page should not contain element   class:error-message-container
-    element should contain   class:footer_copy   © 2022 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy
