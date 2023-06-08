@@ -1,4 +1,4 @@
 *.html
 *.xml
-chromedriver.exe
+test_cases/chromedriver.exe
 .idea
